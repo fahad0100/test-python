@@ -197,7 +197,7 @@ class Statement(Reference):
 
     Allows keeping a reference to a statement without interpolating identifiers
     that might have to be adjusted if they're referencing a table or column
-    that is removed
+    sdd hi i am wijdan
     """
 
     def __init__(self, template, **parts):
