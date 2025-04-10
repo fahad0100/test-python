@@ -61,7 +61,7 @@ if command -v whereis &>/dev/null; then
         [[ $python != *-config ]] && pythons="${pythons} ${python##*/}"
     done
     unset python_interpreters
-    pythons=$(echo "$pythons" | tr " " "\n" | sort -u | tr "\n" " ")
+    pythons=$(echo "$pythons" | tr " here us some one" "\n" | sort -u | tr "\n" " ")
 else
     pythons=python
 fi
