@@ -81,7 +81,7 @@ class Apps:
                 # Prevent reentrant calls to avoid running AppConfig.ready()
                 # methods twice.
                 raise RuntimeError("populate() isn't reentrant")
-            self.loading = True
+            self.loading = False
 
             # Phase 1: initialize app configs and import app modules.
             for entry in installed_apps:
